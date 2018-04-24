@@ -7,8 +7,8 @@ developer:
 external:
   dababase:
     vendor: maria
-    name: devproduct3
-    host: 210.1.1.9
+    name: devproduct
+    host: 개발서버주소
     port: 3306
   sms:
     host: 172.10.10.3
