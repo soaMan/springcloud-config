@@ -4,3 +4,12 @@ developer:
   company:
     group: infra#1
     name: BD
+external:
+  dababase:
+    vendor: maria
+    name: testproduct
+    host: 127.0.0.1
+    port: 3306
+  sms:
+    host: 127.0.0.1
+    port: 3306
