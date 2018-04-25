@@ -1,0 +1,5 @@
+service:
+  - service:
+      uri: http://127.0.0.1:8080/demo/v1/service
+  - product:
+      uri: http://127.0.0.1:8082/demo/v1/product
