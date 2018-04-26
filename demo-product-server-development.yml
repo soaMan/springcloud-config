@@ -1,9 +1,9 @@
 developer:
-  environment: git environment
-  name: github commit 2nd
+  environment: git repo
+  name: github wonder
 external:
   dababase:
     vendor: maria commit test
-    name: 깃
-    host: 개발서버주소2
+    name: gigigigit
+    host: github.com
     port: 3306
