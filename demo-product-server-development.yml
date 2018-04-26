@@ -1,7 +1,7 @@
 external:
   dababase:
     vendor: maria
-    name: devproduct
+    name: 깃
     host: 개발서버주소2
     port: 3306
   sms:

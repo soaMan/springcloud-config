@@ -1,9 +1,0 @@
-external:
-  dababase:
-    vendor: maria
-    name: testdb
-    host: 127.0.0.1
-    port: 3306
-  sms:
-    host: 127.0.0.1
-    port: 3306
