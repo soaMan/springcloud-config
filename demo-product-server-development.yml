@@ -5,5 +5,5 @@ external:
   dababase:
     vendor: maria commit test
     name: gigigigit
-    host: github.com
+    host: github.com3
     port: 3306
