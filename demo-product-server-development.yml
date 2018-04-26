@@ -1,6 +1,6 @@
 developer:
   environment: git environment
-  name: github
+  name: github commit 2nd
 external:
   dababase:
     vendor: maria commit test
