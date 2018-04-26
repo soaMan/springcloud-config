@@ -3,7 +3,7 @@ developer:
   name: github
 external:
   dababase:
-    vendor: maria
+    vendor: maria commit test
     name: 깃
     host: 개발서버주소2
     port: 3306
