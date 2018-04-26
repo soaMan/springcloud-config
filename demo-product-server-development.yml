@@ -1,9 +1,9 @@
 developer:
-  environment: git repo
-  name: github wonder
+  environment: development with git
+  name: g i t h u b
 external:
   dababase:
     vendor: maria commit test
-    name: gigigigit
-    host: github.com3
+    name: git repository
+    host: https://www.github.com
     port: 3306
