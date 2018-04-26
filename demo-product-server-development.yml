@@ -1,9 +1,9 @@
+developer:
+  environment: git environment
+  name: github
 external:
   dababase:
     vendor: maria
     name: 깃
     host: 개발서버주소2
-    port: 3306
-  sms:
-    host: 172.10.10.3
     port: 3306
