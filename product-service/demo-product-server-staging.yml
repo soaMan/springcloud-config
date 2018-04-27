@@ -1,0 +1,9 @@
+developer:
+  environment: staging
+  name: g i t h u b 777
+external:
+  dababase:
+    vendor: maria commit test
+    name: git repository
+    host: https://www.github.com
+    port: 3306
