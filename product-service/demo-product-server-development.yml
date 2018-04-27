@@ -1,5 +1,5 @@
 developer:
-  environment: `{cipher}gdevelopment with git`
+  environment: '{cipher}{Base64:ABCDEFG}'
   name: ' i t h u b 777'
 external:
   dababase:
