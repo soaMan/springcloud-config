@@ -1,0 +1,9 @@
+developer:
+  environment: local
+  name: gateway server
+external:
+  dababase:
+    vendor: maria commit test
+    name: git repository
+    host: https://www.github.com
+    port: 3306
