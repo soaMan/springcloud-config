@@ -14,7 +14,7 @@ mybatis:
 # 임의 프로퍼티
 developer:
   environment: 개인컴퓨터
-  name: 개발자
+  name: 브랜치개발자
 external:
   dababase:
     vendor: 마리앙
