@@ -37,9 +37,9 @@ management:
       exposure:
         include:
         - refresh # 스프링 컨텍스트 갱신/ 필수 설정
-        # - health
+        - health
         # - self
-        # - env
+        - env
 
 # 디스커버리 클라이언트 설정
 #eureka:
