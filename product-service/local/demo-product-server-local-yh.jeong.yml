@@ -13,8 +13,8 @@ mybatis:
 
 # 임의 프로퍼티
 developer:
-  environment: 개인컴퓨터
-  name: 브랜치개발자
+  environment: 개인컴퓨터 
+  name: SOAMAN 
 external:
   dababase:
     vendor: 마리앙
