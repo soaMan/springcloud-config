@@ -1,0 +1,56 @@
+# 스프링 컨텍스트
+spring:
+  # 데이터베이스 정보
+  datasource:
+    url: jdbc:mariadb://localhost:3306/demo_config
+    username: root
+    password: dmfwlfh3rk!@
+    driver-class-name: org.mariadb.jdbc.Driver
+  # rabbitMQ 클라우드 버스
+  rabbitmq:
+    host: 192.168.0.160
+    port: 5672
+    username: guest
+    password: guest
+
+# 마이바티스
+mybatis:
+  config-location: classpath:mybatis-config.xml
+
+# 임의 프로퍼티
+developer:
+  environment: 기본 프로필
+  name: SOAMAN 
+external:
+  dababase:
+    vendor: 마리앙
+    name: 데모
+    host: 로컬
+    port: 3306
+
+# 로그 설정 to be logback
+logging:
+  level:
+    org.springframework: DEBUG
+
+# 스프링 액츄에이터
+management:
+  trace:
+    http:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include:
+        - refresh # 스프링 컨텍스트 갱신/ 필수 설정
+        - health
+        # - self
+        - env
+
+# 디스커버리 클라이언트 설정
+#eureka:
+#  instance:
+#    prefer-ip-address: true
+#  client:
+#    service-url:
+#      defaultZone: http://127.0.0.1:9999/eureka  # default address
