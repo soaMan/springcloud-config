@@ -7,3 +7,17 @@ external:
     name: git repository
     host: https://www.github.com
     port: 3306
+
+# 스프링 액츄에이터
+management:
+  trace:
+    http:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include:
+        - refresh # 스프링 컨텍스트 갱신/ 필수 설정
+        - health
+        - self
+        - env
