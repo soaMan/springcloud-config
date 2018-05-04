@@ -12,6 +12,12 @@ spring:
     username: root
     password: dmfwlfh3rk!@
     driver-class-name: org.mariadb.jdbc.Driver
+  # rabbitMQ 클라우드 버스
+  rabbitmq:
+    host: 192.168.0.160
+    port: 5672
+    username: guest
+    password: guest
 
 # 마이바티스
 mybatis:
