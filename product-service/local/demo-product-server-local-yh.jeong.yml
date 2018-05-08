@@ -20,7 +20,7 @@ mybatis:
 # 임의 프로퍼티
 developer:
   environment: 개인컴퓨터 수정함
-  name: SOAMAN 
+  # name: SOAMAN 
 external:
   dababase:
     vendor: 마리앙
