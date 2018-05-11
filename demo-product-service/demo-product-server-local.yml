@@ -24,7 +24,7 @@ developer:
 external:
   dababase:
     vendor: 마리앙
-    name: 데모
+    name: 디비명변경테스트
     host: 로컬
     port: 3306
 
