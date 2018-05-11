@@ -46,6 +46,7 @@ management:
         - health
         # - self
         - env
+        - bus
 
 # 디스커버리 클라이언트 설정
 #eureka:
