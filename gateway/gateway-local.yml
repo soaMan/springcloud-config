@@ -19,7 +19,7 @@ mybatis:
 
 # 임의 프로퍼티
 developer:
-  environment: GATEWAY
+  environment: GATEWAY-DB?
   # name: SOAMAN 
 external:
   dababase:
