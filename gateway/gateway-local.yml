@@ -31,7 +31,7 @@ external:
 # 로그 설정 to be logback
 logging:
   level:
-    org.springframework: DEBUG
+    org.springframework: INFO
 
 # 스프링 액츄에이터
 #management:
