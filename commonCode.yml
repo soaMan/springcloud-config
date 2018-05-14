@@ -1,0 +1,8 @@
+code:
+  msa1:
+    alert: 경고경고
+    warn: 조심조심
+    msg: 안녕하세요
+    notice:
+      product: 상품공지입니다.
+      service: 서비스공지입니다.
