@@ -7,5 +7,6 @@ code:
       product: 상품공지입니다.
       service: 서비스공지입니다.
       user: 사용자 공지입니다.
+      vdi: 가상화 공지입니다.
 message:
   bye: 바이바이
