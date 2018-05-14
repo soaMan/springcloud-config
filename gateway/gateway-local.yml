@@ -19,12 +19,12 @@ mybatis:
 
 # 임의 프로퍼티
 developer:
-  environment: 로컬게이트웨이1.5
+  environment: 게이트웨이-로컬르
   # name: SOAMAN 
 external:
   dababase:
     vendor: 마리앙
-    name: 데모
+    name: 디비명변경3
     host: 로컬
     port: 3306
 
@@ -34,18 +34,33 @@ logging:
     org.springframework: INFO
 
 # 스프링 액츄에이터
-#management:
-#  trace:
-#    http:
-#      enabled: true
-#  endpoints:
-#    web:
+management:
+  security:
+    enabled: false
+  endpoint:
+    bus-refresh:
+      enabled: true
+  trace:
+    http:
+      enabled: true
+  endpoints:
+    enabled-by-default: true
+    web:
+#      base-path: /cloudpc-config
+      exposure:
+        include:
+        - "*"
 #      exposure:
 #        include:
 #        - refresh # 스프링 컨텍스트 갱신/ 필수 설정
 #        - health
-#        # - self
+#        - self
 #        - env
+#        - bus
+
+
+
+
 
 # 디스커버리 클라이언트 설정
 #eureka:
@@ -54,3 +69,4 @@ logging:
 #  client:
 #    service-url:
 #      defaultZone: http://127.0.0.1:9999/eureka  # default address
+
