@@ -34,18 +34,18 @@ logging:
     org.springframework: DEBUG
 
 # 스프링 액츄에이터
-management:
-  trace:
-    http:
-      enabled: true
-  endpoints:
-    web:
-      exposure:
-        include:
-        - refresh # 스프링 컨텍스트 갱신/ 필수 설정
-        - health
-        # - self
-        - env
+#management:
+#  trace:
+#    http:
+#      enabled: true
+#  endpoints:
+#    web:
+#      exposure:
+#        include:
+#        - refresh # 스프링 컨텍스트 갱신/ 필수 설정
+#        - health
+#        # - self
+#        - env
 
 # 디스커버리 클라이언트 설정
 #eureka:
