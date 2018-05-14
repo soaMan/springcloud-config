@@ -19,7 +19,7 @@ mybatis:
 
 # 임의 프로퍼티
 developer:
-  environment: 로컬게이트웨이/크큭
+  environment: 로컬게이트웨이/크큭4
   # name: SOAMAN 
 external:
   dababase:
