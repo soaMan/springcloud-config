@@ -19,7 +19,7 @@ mybatis:
 
 # 임의 프로퍼티
 developer:
-  environment: 개인컴퓨터임 로칼복구
+  environment: 개인컴퓨터임 로칼복구3
   # name: SOAMAN 
 external:
   dababase:
