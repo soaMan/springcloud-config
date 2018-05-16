@@ -19,7 +19,7 @@ mybatis:
 
 # 임의 프로퍼티
 developer:
-  environment: 개인컴퓨터환경
+  environment: 개인컴퓨터환경이다요
   # name: SOAMAN 
 external:
   dababase:
