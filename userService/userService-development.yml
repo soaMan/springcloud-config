@@ -1,0 +1,55 @@
+spring:
+  mvc:
+    throw-exception-if-no-handler-found: true
+  datasource:
+    type: org.apache.tomcat.jdbc.pool.DataSource
+    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+    url: jdbc:log4jdbc:mysql://211.104.171.238:3306/skb_cloud_pc?autoReconnect=true&useSSL=false
+    username: 3dmpsuser
+    #password: 3dmps_2016
+    password: ENC(1CoUPSg0wg0nwnSFTrBuVY1N5icnr0tg)
+    tomcat:
+      max-active: 10
+      initial-size: 2
+      max-idle: 2
+      min-idle: 1
+      test-while-idle: true
+      time-between-eviction-runs-millis: 3600000
+      min-evictable-idle-time-millis: 7200000
+      test-on-borrow: true
+      validation-query: SELECT 1
+
+  http:
+    encoding:
+      force: true
+  session:
+    store-type: none
+#### rabbitmq config
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+    listener:
+      simple:
+        auto-startup: false
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    lazy-loading-enabled: true
+    aggressive-lazy-loading: false
+    map-underscore-to-camel-case: true
+
+shuaicj.security.jwt.secret: otherpeopledontknowit
+
+server:
+  port: 9002
+  error:
+    whitelabel:
+      enabled: false
+security:
+  sessions: never
+
+management:
+  security:
+    enabled: false
